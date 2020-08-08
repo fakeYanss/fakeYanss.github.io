@@ -10,7 +10,7 @@ markdown: kramdown
 
 # Personal info
 avatar: ./images/avatar.png
-photo: ./images/hey.jpg
+photo: https://source.unsplash.com/user/yanss/likes/653x672
 email: yanshisangc@gmail.com
 github: https://github.com/fakeYanss
 blog: /blog
