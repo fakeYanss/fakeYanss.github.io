@@ -7,21 +7,16 @@ destination: ./_site
 # Build settings
 encoding: UTF-8
 markdown: kramdown
-#for publish
-#highlighter: pygments
-#for local
-#highlighter: true
-baseurl: # the subpath of your site, e.g. /blog/
-codeurl: https://github.com/zchen9/code/issues
-fragmenturl: /blog/
 
 # Personal info
 avatar: ./images/avatar.png
 photo: ./images/hey.jpg
 email: yanshisangc@gmail.com
 github: https://github.com/fakeYanss
-twitter: https://twitter.com/fakeYanss
-ins: https://foreti.me/gallery/
+blog: /blog
+# twitter: https://twitter.com/fakeYanss
+ins: /gallery
+about: /about
 
 # Logo setting
 logocolor: '#000'
