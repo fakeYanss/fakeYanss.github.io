@@ -1,6 +1,6 @@
 # Site settings
-title: 'Nice Shot'  # Your Title
-tagline: 'To find something interesting'  # A brief tagline for your site
+title: 'Yet another possibility'  # Your Title
+tagline: '有约如铁'  # A brief tagline for your site
 timezone: 'Asia/Shanghai'
 destination: ./_site
 
@@ -13,15 +13,15 @@ markdown: kramdown
 #highlighter: true
 baseurl: # the subpath of your site, e.g. /blog/
 codeurl: https://github.com/zchen9/code/issues
-fragmenturl: /fragment/
+fragmenturl: /blog/
 
 # Personal info
-avatar: ./images/zchen9_spring.png
+avatar: ./images/avatar.png
 photo: ./images/hey.jpg
-email: zhao.zchen9@gmail.com
-github: https://github.com/zchen9
-twitter: https://twitter.com/ch1oechao
-ins: https://www.instagram.com/ch1oechao
+email: yanshisangc@gmail.com
+github: https://github.com/fakeYanss
+twitter: https://twitter.com/fakeYanss
+ins: https://foreti.me/gallery/
 
 # Logo setting
 logocolor: '#000'
