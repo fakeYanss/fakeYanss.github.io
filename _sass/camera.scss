@@ -5,10 +5,11 @@
   justify-content: center;
   align-items: center;
   background-color: #83ADEC;
-  background-image: linear-gradient(180deg, 
-    #83ADEC 40%, #a6dcef 40% 60%,
-    #a6dcef 60% 75%,#f2aaaa 75% 90%,
-    #e36387 90% 100%);
+  // background-image: linear-gradient(180deg, 
+  //   #83ADEC 40%, #a6dcef 40% 60%,
+  //   #a6dcef 60% 75%,#f2aaaa 75% 90%,
+  //   #e36387 90% 100%);
+  background: linear-gradient(to right, #93F9B9, #1D976C);
 }
 
 /* inspired by https://fossheim.io/writing/posts/css-polaroid-camera/ */
@@ -20,7 +21,7 @@
   margin-top: -300px;
   &:after {
     position: relative;
-    content: '「 🍺 Cheers! 」';
+    content: '「 Yet Another Possibility 」';
     display: block;
     top: 36%;
     width: 100%;
