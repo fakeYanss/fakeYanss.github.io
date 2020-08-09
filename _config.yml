@@ -11,10 +11,10 @@ markdown: kramdown
 # Personal info
 avatar: ./images/avatar.png
 photo: https://source.unsplash.com/user/yanss/likes/653x672
+default_photo: ./images/tequila-sunrise.jpg
 email: yanshisangc@gmail.com
 github: https://github.com/fakeYanss
 blog: /blog
-# twitter: https://twitter.com/fakeYanss
 ins: /gallery
 about: /blog/about
 
