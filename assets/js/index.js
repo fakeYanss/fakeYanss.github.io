@@ -6,14 +6,15 @@ $(document).ready(function(){
     $('.camera .glass').toggleClass('active');
     
     var photoImg = document.getElementsByClassName("info-photo");
-    var timer = setTimeOut(function(){
-      photoImg.src = "{{site.default_photo}}";
-    }, 2000);
     oImg.onload = function () {
       clearTimeOut(timer);
       timer = null;
     }
   }
+  
+  var timer = setTimeOut(function(){
+      photoImg.src = "./images/tequila-sunrise.jpg";
+    }, 2000);
   
   $shutter.on('click', printPhoto);
 
