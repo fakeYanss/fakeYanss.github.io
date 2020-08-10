@@ -4,6 +4,15 @@ $(document).ready(function(){
   function printPhoto() {
     $('.info-content').toggleClass('animate');
     $('.camera .glass').toggleClass('active');
+    
+    var photoImg = document.getElementsByClassName("info-photo");
+    var timer = setTimeOut(function(){
+      photoImg.src = "{{site.default_photo}}";
+    }, 2000);
+    oImg.onload = function () {
+      clearTimeOut(timer);
+      timer = null;
+    }
   }
   
   $shutter.on('click', printPhoto);
