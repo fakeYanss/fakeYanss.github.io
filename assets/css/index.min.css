@@ -128,6 +128,13 @@ a:visited {
     }
 }
 
+@media screen and (max-height: 767px) {
+    .camera {
+        margin-top: -200px;
+        transform: scale(0.6);
+    }
+}
+
 .camera .bottom {
     display: block;
     width: 100%;
